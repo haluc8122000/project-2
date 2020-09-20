@@ -1,0 +1,52 @@
+:root {
+    --white-color: white;
+    --black-color: black;
+    --text-color: #666666;
+    --star-color: #E34317;
+    --button-color: #d03A2d;
+    --hover-color: #E6545A;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* .grid {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+} */
+
+.grid_row .gird_full-width {
+    width: 100%;
+}
+
+.grid_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.gird_column-3 {
+    padding-left: -5px;
+    padding-right: -5px;
+    width: 25%;
+}
+
+.gird_column-2 {
+    width: 20%;
+    padding-left: -5px;
+    display: flex;
+    padding-right: -5px;
+    flex-wrap: wrap;
+}
